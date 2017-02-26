@@ -1,4 +1,4 @@
-From 2744d1b4d72a44da1d2278837c074eb0764a9ca5 Mon Sep 17 00:00:00 2001
+From 8aa4f74824b885cc4f7681c49c49e27dd24f57eb Mon Sep 17 00:00:00 2001
 From: Rohan Agrawal <send2arohan@gmail.com>
 Date: Sat, 25 Feb 2017 19:32:18 -0800
 Subject: [PATCH] Add some Pi2 level optimization flags
