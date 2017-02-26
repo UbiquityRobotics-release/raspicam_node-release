@@ -1,0 +1,25 @@
+From 2744d1b4d72a44da1d2278837c074eb0764a9ca5 Mon Sep 17 00:00:00 2001
+From: Rohan Agrawal <send2arohan@gmail.com>
+Date: Sat, 25 Feb 2017 19:32:18 -0800
+Subject: [PATCH] Add some Pi2 level optimization flags
+
+---
+ debian/rules.em | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/debian/rules.em b/debian/rules.em
+index 991c991..ce0a540 100755
+--- a/debian/rules.em
++++ b/debian/rules.em
+@@ -17,7 +17,7 @@ export LDFLAGS=
+ export PKG_CONFIG_PATH=@(InstallationPrefix)/lib/pkgconfig
+ # Explicitly enable -DNDEBUG, see:
+ # 	https://github.com/ros-infrastructure/bloom/issues/327
+-export DEB_CXXFLAGS_MAINT_APPEND=-DNDEBUG
++export DEB_CXXFLAGS_MAINT_APPEND=-DNDEBUG -mcpu=cortex-a7 -mfpu=neon-vfpv4 -mfloat-abi=hard -mlittle-endian -munaligned-access
+ 
+ %:
+ 	dh  $@@
+-- 
+2.7.4
+
