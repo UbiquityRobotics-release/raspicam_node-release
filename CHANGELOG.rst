@@ -2,6 +2,11 @@
 Changelog for package raspicam
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2017-02-25)
+------------------
+* Dependency fixes
+* Contributors: Rohan Agrawal
+
 0.2.0 (2017-02-25)
 ------------------
 * Add launch files and camera calibrations
