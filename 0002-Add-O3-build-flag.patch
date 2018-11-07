@@ -1,4 +1,4 @@
-From d226a6cbfcc0369de79e1df372c0a618c67bd046 Mon Sep 17 00:00:00 2001
+From 85ed4c09eeb99d16fc08ff1731732ba4ee154a01 Mon Sep 17 00:00:00 2001
 From: Rohan Agrawal <send2arohan@gmail.com>
 Date: Wed, 7 Nov 2018 09:15:44 -0800
 Subject: [PATCH 2/2] Add -O3 build flag
