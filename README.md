@@ -1,3 +1,26 @@
+## raspicam_node (kinetic) - 0.5.0-1
+
+The packages in the `raspicam_node` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release raspicam_node --rosdistro kinetic` on `Wed, 08 Apr 2020 19:28:26 -0000`
+
+The `raspicam_node` package was released.
+
+Version of package(s) in repository `raspicam_node`:
+
+- upstream repository: https://github.com/UbiquityRobotics/raspicam_node.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.4.0-2`
+- new version: `0.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.3`
+- catkin_pkg version: `0.4.15`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## raspicam_node (kinetic) - 0.4.0-2
 
 The packages in the `raspicam_node` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic raspicam_node` on `Wed, 07 Nov 2018 17:20:42 -0000`
