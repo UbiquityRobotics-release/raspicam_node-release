@@ -1,0 +1,25 @@
+From d93578888aee273cf291070011b8c67041e9bc5e Mon Sep 17 00:00:00 2001
+From: Rohan Agrawal <send2arohan@gmail.com>
+Date: Wed, 7 Nov 2018 09:15:44 -0800
+Subject: [PATCH 2/2] Add -O3 build flag
+
+---
+ debian/rules.em | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/debian/rules.em b/debian/rules.em
+index 190db67..e54c817 100755
+--- a/debian/rules.em
++++ b/debian/rules.em
+@@ -16,7 +16,7 @@ export LDFLAGS=
+ export PKG_CONFIG_PATH=@(InstallationPrefix)/lib/pkgconfig
+ # Explicitly enable -DNDEBUG, see:
+ # 	https://github.com/ros-infrastructure/bloom/issues/327
+-export DEB_CXXFLAGS_MAINT_APPEND=-DNDEBUG -mcpu=cortex-a7 -mfpu=neon-vfpv4 -mfloat-abi=hard -mlittle-endian -munaligned-access
++export DEB_CXXFLAGS_MAINT_APPEND=-DNDEBUG -O3 -mcpu=cortex-a7 -mfpu=neon-vfpv4 -mfloat-abi=hard -mlittle-endian -munaligned-access 
+ 
+ %:
+ 	dh $@@ -v --buildsystem=cmake
+-- 
+2.7.4
+
