@@ -1,3 +1,26 @@
+## raspicam_node (noetic) - 0.5.0-1
+
+The packages in the `raspicam_node` repository were released into the `noetic` distro by running `/usr/bin/bloom-release raspicam_node --track noetic -r noetic --new-track` on `Fri, 18 Jun 2021 21:03:41 -0000`
+
+The `raspicam_node` package was released.
+
+Version of package(s) in repository `raspicam_node`:
+
+- upstream repository: https://github.com/UbiquityRobotics/raspicam_node.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.5.0-1`
+- new version: `0.5.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.1`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## raspicam_node (kinetic) - 0.5.0-1
 
 The packages in the `raspicam_node` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release raspicam_node --rosdistro kinetic` on `Wed, 08 Apr 2020 19:28:26 -0000`
